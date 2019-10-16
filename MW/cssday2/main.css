@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url("fonts/opensans-regular-webfont.woff") format('woff'),
+         url('fonts/opensans-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url("fonts/roboto-regular-webfont.woff") format('woff'),
+         url('fonts/roboto-regular-webfont.woff2') format('woff2');
+}
+
+body {
+    font-size: 40px;
+}
+
+p.font1{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'open_sansregular';
+}
+p.font2{
+    font-family: 'robotoregular';
+    font-style: oblique;
+}
+p.font3{
+    font-family: 'Zhi Mang Xing', cursive;
+
+}
+.font1 q{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(87, 72, 221);
+}
+.font2 q{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+}
+.font3 q{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: greenyellow;
+}
+.font3 span{
+    font-weight: bold;
+    font-style: italic;
+}
+#firstPara{
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+#secondPara{
+    text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 200%
+
+}
