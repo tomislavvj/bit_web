@@ -1,0 +1,125 @@
+@font-face{
+    font-family: "Roboto-Regular";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+.cf:before, .cf:after{
+    content:"";
+    display: table;
+}
+.cf:after{
+    clear: both;
+}
+body{
+    width: 100%;
+    font-family: "Roboto-Regular";
+}
+#main-wrapper{
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+header{
+    background-image: url("./pictures/banner3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    top: 0;
+    left: 0px;
+}
+header h2{
+    float: left;
+    color: white;
+    margin-left: 2%;
+}
+header h2 span{
+    color: orange;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    border-color: white;
+
+}
+
+#headMain {
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    font-size: 45px;
+    text-align: center;
+}
+#headMain p{
+    margin: 0;
+
+}
+
+header .logo {
+    float: left;
+    width: 60px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    float: left;
+    padding: 13px;
+    color: #fff;
+}
+
+#blueBox {
+
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: rgb(42, 154, 228);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+main div article{
+    float: left;
+    width: 26%;
+    padding: 10px;
+    
+}
+
+.main1 img{
+    display: block;
+    width: 100%;
+    margin-top: 21.28px;
+}
+
+.main1 h4{
+    color: #76b7ec;
+    
+}
+.main1 ul{
+    list-style-image: url(./pictures/arrow_bullet.png); 
+}
+
+main{
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+main div{
+    position: absolute;
+    left: 15%;
+    padding-top: 20px;
+}
+
