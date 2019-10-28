@@ -1,0 +1,43 @@
+@import '../sass1/variables.scss';
+
+@import '../sass1/mixins.scss';
+
+
+body {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#footer {
+    background-color: $bg1;
+    font-size: $velicina;
+}
+
+.container {
+    table {
+        @include box-shadow();
+        color: $c2;
+        margin-top: $velicina;
+    }
+
+    td {
+        background-color: $c1;
+    }
+
+    & :hover {
+        color: $c3;
+        font-size: x-large;
+        padding: 20px 10px;
+    }
+
+    .docs {
+        text-transform: uppercase;
+        color: $bg;
+    }
+
+    #footer,
+    h1 {
+        @include text-shadow();
+    }
+}
