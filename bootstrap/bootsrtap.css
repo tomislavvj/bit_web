@@ -1,0 +1,33 @@
+/*
+responsive
+  
+.a{
+    background-color: aquamarine;
+}
+.b{
+    background-color: bisque;
+}
+.c{
+    background-color: rgb(248, 193, 148);
+}
+
+.col-sm-8, .col-md-8, .col-lg-8, .col-sm, .col-md ,.col-lg{
+    text-align: center;
+    border: 1px solid white;
+}
+
+ */
+
+.col-12{
+     background-color: lightgray;
+     border: 1px solid white;
+ }
+ .col-3{
+    background-color: lightgreen;
+    border: 1px solid white;
+
+ }
+ .col-6{
+    background-color: royalblue;
+    border: 1px solid white;
+ }

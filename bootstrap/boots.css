@@ -1,0 +1,13 @@
+ul li{
+    float:left ;
+}
+.navb{
+    background-color: darkred;
+    color: white;
+}
+#pic{
+    width: 100%;
+}
+#list{
+    height: 200px;
+}
