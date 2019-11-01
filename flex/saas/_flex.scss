@@ -1,0 +1,71 @@
+#telo{
+    width: 960px;
+    margin: 0 auto;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: #c1392b;
+    height: 40px;
+    color: white;
+    align-items: center;
+}
+ul li {
+    width: 7%;
+
+    
+}
+#slika1 {
+    width: 100%;
+}
+
+p{
+    display: block;
+    width: 300px;
+}
+main {
+    display: flex;
+    width: 100%;   
+    justify-content: center;
+}
+main div {
+    width: 33%;
+}
+.linkovi{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: black;
+    background-color: #ffbe00;
+    box-sizing: border-box;
+
+}
+.linkovi li{
+   box-sizing: border-box;
+    width: 93%;
+    border-bottom: solid 1px black;
+    margin: 0 2% 0 2%;
+}
+a{
+    color: black;
+}
+footer{
+    display: flex;
+    margin: 0 auto;
+    background-color: #2d3e50;
+    color: white;
+    width: 1600px;
+    height: 40px;
+    align-items: center;
+}
+footer p{
+    margin-left: 20%;
+}

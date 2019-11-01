@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,MAAM;;AAElB,IAAI;EACA,MAAM,EAAE,MAAM;;AAElB,eAAe;EACb,KAAK,EAAE,GAAG;;AAEZ,EAAE;EACE,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,MAAM;;AAElB,SAAS;EACL,KAAK,EAAE,IAAI",
+"sources": ["../sass/_poster1.scss"],
+"names": [],
+"file": "poster.css"
+}
