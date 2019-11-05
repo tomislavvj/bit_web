@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+
+<body>
+    <h1>Dobar dan</h1>
+
+    <script>
+        /*         function isOnline() {
+                    if (window.navigator.onLine) {
+                        console.log("online");
+                    } else {
+                        console.log("offline");
+                    }
+                } */
+        /*   punishment(); */
+        /* console.log(window.platform); */
+        /*         console.log(window.navigator.onLine);
+                console.log(window.navigator.platform);
+                console.log(window.navigator.appVersion);
+                console.log(window.navigator.appName);
+         */
+        /*       isOnline(); */
+        /* 
+        
+        
+                function screenInformation() {
+                    console.log(window.screen.height);
+                    console.log(window.screen.width);
+                    console.log(window.screen.availHeight);
+                }
+                screenInformation();
+        
+                function locationInformation() {
+                    console.log(window.location.href);
+                    console.log(window.location.hostname);
+                    console.log(window.location.protocol);
+                    for (i in window.location.search) {
+                        console.log(window.location.search[i]);
+                    }
+                }
+                locationInformation();
+                function changePage(url) {
+                    window.location.href = url; *//*             
+*/
+        /*         changePage("https://classroom.google.com/c/Mzg0ODEyNTQzMjNa/m/MzkyMTkyMDU5OTFa/details");
+                        var reloded = true;
+                        if (reloded) {
+                            window.location.reload();
+                            reloded = false;
+                        } */
+        for (var i = 0; i < 100; i++) {
+            var name = "pera";
+            name += i;
+            window.localStorage.setItem(name, name);
+            sessionStorage.setItem(name, name);
+        }
+
+        /*         for (var i = 0; i < 100; i += 2) {
+                    var name = "pera";
+                    name += i;
+                    window.localStorage.removeItem(name);
+                } */
+        /*  localStorage.clear(); */
+        for (var i in localStorage) {
+
+            console.log(localStorage[i]);
+        }
+    </script>
+
+</body>
+
+</html>
