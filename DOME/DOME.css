@@ -1,0 +1,15 @@
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+
+.third{
+    background: aquamarine;
+    text-transform: uppercase;
+}
+
+.active{
+    background: green;
+}
