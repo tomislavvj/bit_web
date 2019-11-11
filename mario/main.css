@@ -1,0 +1,25 @@
+body {
+  background-image: url(./bg.jpg);
+  background-repeat: repeat-x;
+  width: 95%;
+  background-size: 95%;
+}
+
+#marioStatic {
+  width: 100px;
+  position: absolute;
+  display: block;
+  top: 77%;
+  left: 45%;
+}
+
+#marioActive {
+  width: 100px;
+  position: absolute;
+  top: 75%;
+  left: 45%;
+}
+
+.hide {
+  display: none;
+}
