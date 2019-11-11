@@ -1,0 +1,67 @@
+/* .red{
+    background: red;
+}
+
+.blue{
+    background: rgb(31, 31, 240);
+}
+
+.green{
+    background: green;
+    text-transform: uppercase;
+}
+
+.active{
+    background: hotpink;
+}
+
+.navyColor{
+    background: navy;
+} */
+
+
+
+/* body{
+    background-color: aliceblue;
+}
+
+.wrap {
+    width:60%;
+    margin:0 auto;
+}
+.messageBox{
+    width: 60%;
+    height: 800px;
+    background-color: white;
+    margin: 2% auto 1%;
+    box-shadow: inset;
+    padding: 10px;
+}
+
+.textSend {
+    width: 81%;
+    height: 40px;
+}
+
+#sendMessage {
+    width: 18%;
+    height: 50px;
+    background-color: #c0392b;
+    color: white;
+
+} */
+
+
+body{
+    background-image: url(./field.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+img{
+    position: relative;
+    width: 100px;
+    display: block;
+}
