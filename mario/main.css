@@ -1,18 +1,38 @@
-body {
+/* body {
   background-image: url(./bg.jpg);
   background-repeat: repeat-x;
   width: 95%;
   background-size: 95%;
+} */
+
+body {
+  background-image: url(./bg.jpg);
+  background-size: 95%;
+}
+.animationClass {
+  animation: moveIt 0.3s linear infinite;
+}
+.animationClassReverse {
+  animation: moveIt 0.3s reverse linear infinite;
+}
+@keyframes moveIt {
+  from {
+    background-position: bottom left;
+  }
+  to {
+    background-position: bottom right;
+  }
 }
 
-#marioStatic {
-  width: 100px;
+.marioStatic {
+  width: 120px;
   position: absolute;
-  top: 45%;
+  top: 75%;
   left: 45%;
 }
 
-#marioActive, #marioActiveLeft {
+#marioActive,
+#marioActiveLeft {
   width: 100px;
   position: absolute;
   top: 75%;
@@ -23,3 +43,18 @@ body {
   display: none;
 }
 
+.reverse {
+  transform: scale(-1, 1);
+}
+
+.marioJump {
+  /* width: 120px;
+  position: absolute;
+  top: 25%;
+  left: 45%; */
+
+  width: 250px;
+
+  transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
