@@ -21,7 +21,6 @@ startLi(); */
 }
 thirdList(); */
 
-
 /* function activeFnc(){
     var haveClass= document.getElementById("fifth");
     haveClass.querySelector(".active").className="";
@@ -29,7 +28,6 @@ thirdList(); */
     moveClass.firstElementChild.className="active";
 }
 activeFnc(); */
-
 
 /* function textAlert(){
     var el= document.getElementById("sixth").firstElementChild.nextElementSibling.textContent;
@@ -41,8 +39,6 @@ textAlert(); */
     document.getElementById("sixth").lastElementChild.textContent=str;
 }
 changeText("New Line"); */
-
-
 
 /* var body=document.querySelector("body");
 function createDropdown(arrStrings, domNode){
@@ -59,7 +55,6 @@ function createDropdown(arrStrings, domNode){
 }
 createDropdown(["asd", "lsd", "mdma", "acid"], body); */
 
-
 /* var body = document.querySelector("body");
 
 function createDropDownInnerHTML(arrStrings, domNode) {
@@ -75,7 +70,6 @@ function createDropDownInnerHTML(arrStrings, domNode) {
 }
 createDropDownInnerHTML(["Volvo", "Mercedes", "BMW"], body); */
 
-
 /* var formWhole = document.getElementById("forma");*/
 /* function formCheck(form) {
     for (var i = 0; i < form.length; i++) {
@@ -87,8 +81,6 @@ createDropDownInnerHTML(["Volvo", "Mercedes", "BMW"], body); */
 }
 formCheck(document.getElementById("forma")); */
 
-
-
 /* function changeBackgroundColor() {
     var bodyBackground = document.getElementById("bodyID");
     bodyBackground.classList.toggle("navyColor");
@@ -97,7 +89,6 @@ formCheck(document.getElementById("forma")); */
 function turnOffLight(){
     document.getElementById("changer").removeAttribute("onclick");
 } */
-
 
 /* function sendMessage() {
     var input=document.querySelector(".textSend");
@@ -109,18 +100,25 @@ function turnOffLight(){
     input.value=""
 } */
 
-
-var player = document.querySelector("img");
+/* var player = document.querySelector("img");
 var field = document.querySelector("body");
-var event = field.addEventListener("click", playerMovement);
+var event = field.addEventListener("click", playerMovement); */
 
-function playerMovement(event) {
+/* function playerMovement(event) {
     var x = event.clientX;
     var y = event.clientY;
     player.style.top = y + "px";
     player.style.left = x + "px";
 }
-playerMovement();
+playerMovement(); */
 
+var $player = $("img");
+var $field = $("body");
 
-  
+$("document").on("click", function(event) {
+  var offset = $div.offset();
+  var x = event.clientX - offset.left;
+  var y = event.clientY - offset.top;
+  $player.offset.left = x;
+  $player.offset.top = y;
+});
