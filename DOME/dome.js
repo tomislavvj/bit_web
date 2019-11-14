@@ -21,8 +21,6 @@ function listThird() {
 }
 listThird(); */
 
-
-
 /* var x = document.querySelector("div");
 var y = x.nextElementSibling;
 var z = y.querySelector("ul li");
@@ -37,18 +35,16 @@ z.parentElement.parentElement.previousElementSibling.firstElementChild.firstElem
 
  */
 
-
-
 var f = document.querySelector(".nav");
 var g = f.querySelector("li");
 
 function alertText() {
-    window.alert(g.textContent);
+  window.alert(g.textContent);
 }
 alertText();
 
 function text(text) {
-    var h = f.lastElementChild.textContent = text;
+  var h = (f.lastElementChild.textContent = text);
 }
 text("KJKSZPJ");
 
